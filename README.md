@@ -1,7 +1,7 @@
 # Stock Service
 
-JPMC Stock Service is a thread safe application that can be used to performs various stock operations on millions of stock trade recordss stored in memory containers in paraller.
-It  uses Fork join pool to distribute the jobs to each containers, in each container the trade records are processed and result is returnd to a the processor and its merged and returned.
+JPMC Stock Service is a thread safe application that can be used to performs various stock operations on millions of stock trade recordss stored in memory containers in parallel.
+It  uses Fork join pool to distribute the jobs to each containers, in each container the trade records are processed and result is returned to the processor and its merged and returned.
 
 ![Alt text](images/arch.jpg?raw=true "Architecture")
 
